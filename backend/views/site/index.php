@@ -132,45 +132,50 @@
     <a href="<?=Yii::$app->urlManager->createUrl(['multiplier/view-multiplier'])?>">View Multiplier</a>
       </div>
       <div class="menu-item" onclick="toggleSubMenu('factory')">
-        <a href="#">Factories</a>
+        <a href="">Factories</a>
         <i class="arrow down"></i>
-      </div>
-      <div class="sub-menu" id="factory">
-        <a href="#addfactory">Add Factory</a><br>
-        <a href="#viewfactory">View Factory</a>
-      </div>
+</div>
+<div class="sub-menu" id="factory">
+  <a href="<?=Yii::$app->urlManager->createUrl(['factory/add-factory'])?>">Add Factory</a>
+  <br>
+  <a href="<?=Yii::$app->urlManager->createUrl(['factory/view-factory'])?>">View Factory</a>
+</div>
       <div class="menu-item" onclick="toggleSubMenu('association')">
-        <a href="#">Associations</a>
+        <a href="">Associations</a>
         <i class="arrow down"></i>
       </div>
       <div class="sub-menu" id="association">
-        <a href="#addassociation">Add Association</a><br>
-        <a href="#viewassociation">View Association</a>
-      </div>
-      <div class="menu-item" onclick="toggleSubMenu('general-partners')">
-        <a href="#">General-Partners</a>
+  <a href="<?=Yii::$app->urlManager->createUrl(['association/add-association'])?>">Add Association</a>
+  <br>
+  <a href="<?=Yii::$app->urlManager->createUrl(['association/view-association'])?>">View Association</a>
+</div>
+<div class="menu-item" onclick="toggleSubMenu('partner')">
+        <a href="">General-Partners</a>
         <i class="arrow down"></i>
       </div>
-      <div class="sub-menu" id="general-partners">
-        <a href="#addgeneral-partner">Add General-Partner</a><br>
-        <a href="#viewgeneral-partner">View General-Partner</a>
-      </div>
-      <div class="menu-item" onclick="toggleSubMenu('brands')">
-        <a href="#">Brands</a>
+      <div class="sub-menu" id="partner">
+  <a href="<?=Yii::$app->urlManager->createUrl(['partner/add-partner'])?>">Add General-Partner</a>
+  <br>
+  <a href="<?=Yii::$app->urlManager->createUrl(['partner/view-partner'])?>">View General-Partner</a>
+</div>
+      <div class="menu-item" onclick="toggleSubMenu('brand')">
+        <a href="">Brands</a>
         <i class="arrow down"></i>
       </div>
-      <div class="sub-menu" id="brands">
-        <a href="#addbrand">Add Brands</a><br>
-        <a href="#viewbrand">View Brands</a>
-      </div>
-      <div class="menu-item" onclick="toggleSubMenu('academia')">
-        <a href="#">Academia</a>
-        <i class="arrow down"></i>
-      </div>
-      <div class="sub-menu" id="academia">
-        <a href="#addacademia">Add Academia</a><br>
-        <a href="#viewacademia">View Academia</a>
-      </div>
+      <div class="sub-menu" id="brand">
+  <a href="<?=Yii::$app->urlManager->createUrl(['brand/add-brand'])?>">Add Brand</a>
+  <br>
+  <a href="<?=Yii::$app->urlManager->createUrl(['brand/view-brand'])?>">View Brand</a>
+</div>
+<div class="menu-item" onclick="toggleSubMenu('academia')">
+  <a href="">Academia</a>
+  <i class="arrow down"></i>
+</div>
+<div class="sub-menu" id="academia">
+  <a href="<?=Yii::$app->urlManager->createUrl(['academia/add-academia'])?>">Add Academia</a>
+  <br>
+  <a href="<?=Yii::$app->urlManager->createUrl(['academia/view-academia'])?>">View Academia</a>
+</div>
     </nav>
   </div>
 

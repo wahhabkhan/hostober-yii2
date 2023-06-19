@@ -165,7 +165,7 @@ $this->title = 'Association Table View';
 </div>
 
       <div class="menu-item" onclick="toggleSubMenu('factory')">
-        <a href="#">Factories</a>
+        <a href="">Factories</a>
         <i class="arrow down"></i>
       </div>
       <div class="sub-menu" id="factory">
@@ -174,7 +174,7 @@ $this->title = 'Association Table View';
   <a href="<?=Yii::$app->urlManager->createUrl(['factory/view-factory'])?>">View Factory</a>
 </div>
       <div class="menu-item" onclick="toggleSubMenu('association')">
-        <a href="#">Associations</a>
+        <a href="">Associations</a>
         <i class="arrow down"></i>
       </div>
       <div class="sub-menu" id="association">
@@ -192,7 +192,7 @@ $this->title = 'Association Table View';
   <a href="<?=Yii::$app->urlManager->createUrl(['partner/view-partner'])?>">View General-Partner</a>
 </div>
       <div class="menu-item" onclick="toggleSubMenu('brand')">
-        <a href="#">Brands</a>
+        <a href="">Brands</a>
         <i class="arrow down"></i>
       </div>
       <div class="sub-menu" id="brand">

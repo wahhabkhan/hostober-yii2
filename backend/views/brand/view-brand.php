@@ -165,7 +165,7 @@ $this->title = 'Government Table View';
 </div>
 
 <div class="menu-item" onclick="toggleSubMenu('factory')">
-        <a href="#">Factories</a>
+        <a href="">Factories</a>
         <i class="arrow down"></i>
 </div>
 <div class="sub-menu" id="factory">
@@ -174,7 +174,7 @@ $this->title = 'Government Table View';
   <a href="<?=Yii::$app->urlManager->createUrl(['factory/view-factory'])?>">View Factory</a>
 </div>
       <div class="menu-item" onclick="toggleSubMenu('association')">
-        <a href="#">Associations</a>
+        <a href="">Associations</a>
         <i class="arrow down"></i>
       </div>
       <div class="sub-menu" id="association">
@@ -183,7 +183,7 @@ $this->title = 'Government Table View';
   <a href="<?=Yii::$app->urlManager->createUrl(['association/view-association'])?>">View Association</a>
 </div>
 <div class="menu-item" onclick="toggleSubMenu('partner')">
-        <a href="#">General-Partners</a>
+        <a href="">General-Partners</a>
         <i class="arrow down"></i>
       </div>
       <div class="sub-menu" id="partner">
@@ -192,7 +192,7 @@ $this->title = 'Government Table View';
   <a href="<?=Yii::$app->urlManager->createUrl(['partner/view-partner'])?>">View General-Partner</a>
 </div>
       <div class="menu-item" onclick="toggleSubMenu('brand')">
-        <a href="#">Brand</a>
+        <a href="">Brand</a>
         <i class="arrow down"></i>
       </div>
       <div class="sub-menu" id="brand">
